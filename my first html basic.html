@@ -1,0 +1,314 @@
+<html>
+
+	<!-- This is my first real HTML document. I am using it as a reference piece and for live examples for all features-->
+	<!-- Documentation by Jason R. Pittman -->
+	<!-- This document doesn't contain any CSS or javascript-->
+
+	<head>
+	 <title> My Training Page w/notes </title>
+	</head>
+
+	<body>
+	 <!-- There are only 6 Headers allowed -->
+	 <h1> This is heading 1 </h1>
+	 <h2> This is heading 2 </h2>
+	 <h3> This is heading 3 </h3>
+	 <h4> This is heading 4 </h4>
+	 <h5> This is heading 5 </H5>
+	 <h6> This is heading 6 </h6>
+
+	 <p> This is a paragraph</P>
+
+	 <hr /> <!--This is a Horizon Line-->
+
+	 <!-- This is an Comment -->
+
+	 <p> This is another Paragraph </p>
+	 <p> This is <br /> a line break </P>
+	 <P> This is regular text </P>
+	 <P><b> Bold Text </b></p>
+	 <P><big> Big Text </big></P>
+	 <P><i> Italics text </i></p>
+	 <P><small> Small text </small></p>
+	 <P><strong> strong text </strong></p>
+	 <P><sub> Subscripted text </sub></p>
+	 <p><sup> SuperScripted text </sup></P>
+	 <P><ins> Inserted text </ins></p>
+	 <P><del> deleted text </del></p>
+	 <p><b><i><big> This is a  custom big bold italics text line </P></i></big>
+
+	 
+
+	<!-- next we will do images -->
+	<P align="center"><strong>Next up Images</strong></p>
+
+	<!--first the photo needs to be in the same folder as the html file if you aren't going to define where it is-->
+	<!--If it isn't then you will need to define where the folder is kept after the src-->
+	<p> Below is an example of me adding a photo in the center, with a border around it </p>
+	<!--If you are going to change the size do so before the alt and inside the line for the source.-->
+	<!--Try to keep images small as they take a lot of time to load.-->
+	<!-- add a border with the BORDER tag-->
+	<p align="center">
+	<img align="center" src="headshot.jpg" height="25%" width="25%" border="5px" alt="this is a photo of my head"/>
+	</p>
+
+
+	<!--Next up Links-->
+	<!--yes these are redundant, but i don't care-->
+
+	<p align="center"><strong>Next up we will take a look at links</strong></p> 
+
+	<!--all links begin with A(a) and then href=the webaddress or location of the file-->
+	<a href="Http://www.sololearn.com">Learn Playing</a>
+	<!-- add target="_blank" to open a new window or tab -->
+
+	<p><ins><b> Next up will be Lists </ins></b>
+
+	<!-- Ordered lists (ol) automatically places numbers out beside the list items (li).-->
+	<ol> <br /> ordered lists place numbers out beside the list items automatically. 
+	 <li>Red</li>
+	 <li>Blue</li>
+	 <li>Green</li>
+	</ol>
+
+	<ul><br /> Unorder lists will just use bullet points. 
+	 <li>Red</li>
+	 <li>Blue</li>
+	 <li>Green</li>
+	</ul>
+	</p>
+
+	<!-- Tables will start below -->
+
+	<!-- Colspan will expand a column. An example of this is below. Place the text in between two of the data rows-->
+	<!-- There won't be an example but you can you ROWSPAN to extend a row for more text and place it between the TR -->
+	<!-- Tables can be aligned just as a paragraph or a title or anything else you have. They can also have color-->
+	<!-- An example of color is included in this table.-->
+	<!-- !!!! the th command is for table headers....this is missing from the table below. 
+
+	<p><ins>Tables<ins></p>
+	<p>Example Table with Colored cells</p>
+	<table border="2">
+	 <tr>
+	  <!--Color below-->
+	  <td bgcolor="red">Red</td>
+	  <td bgcolor="blue">Blue</td>
+	  <td bgcolor="green">Green</td>
+	 </tr>
+	<tr>
+	 <td bgcolor="yellow">Yellow</td>
+	 <td colspan="2" bgcolor="orange">Orange</td>
+	</tr>
+	</table>
+	<br/>
+
+	<table border="1" bgcolor="yellow">
+	 <tr>
+	   <th>Time</th>
+	   <th>Monday</th>
+	   <th>Tuesday</th>
+	   <th>Wednesday</th>
+	   <th>Thursday</th>
+	   <th>Friday</th>
+	 </tr>
+	 <tr>
+	   <td>8-10</td>
+	   <td>Morning quotes</td>
+	   <td>Morning quotes</td>
+	   <td>Morning quotes</td>
+	   <td>Morning quotes</td>
+	   <td>Morning quotes</td>
+	 </tr>
+	 <tr>
+	   <td>11-12</td>
+	   <td>Schedule appointments</td>
+	   <td>Visits</td>
+	   <td>Visits</td>
+	   <td>Visits</td>
+	   <td>Visits</td>
+	 </tr>
+	 <tr>
+	   <td>12:00-1</td>
+	   <td>Lunch</td>
+	   <td>Lunch</td>
+	   <td>Lunch</td>
+	   <td>Lunch</td>
+	   <td>Lunch</td>
+	 </tr>
+	 <tr>
+	   <td>1-4</td>
+	   <td>prospecting</td>
+	   <td>prospecting</td>
+	   <td>prospecting</td>
+	   <td>prospecting</td>
+	   <td>prospecting</td>
+	 </tr>
+	 <tr>
+	   <td>4-5</td>
+	   <td>End of day</td>
+	   <td>End of day</td>
+	   <td>End of day</td>
+	   <td>End of day</td>
+	   <td bgcolor="blue"> End of week</td>
+	 </tr>
+	</table>
+
+
+	<!-- My version of a static Calendar :)-->
+
+	<p align ="center"><b><a href="https://www.timeanddate.com/calendar/monthly.html?year=2017&month=9&country=1">September</a></b></p>
+	<table border= "1" align ="center" bgcolor="pink">
+	 <th></th>
+	  <tr></tr>
+	   <td>Sunday</td>
+	   <td>Monday</td>
+	   <td>Tuesday</td>
+	   <td>Wednesday</td>
+	   <td>Thursday</td>
+	   <td>Friday</td>
+	   <td>Saturday</td>
+	  <tr></tr>
+
+	  <tr></tr>
+	  <tr></tr>
+	   <td></td>
+	   <td></td>
+	   <td></td>
+	   <td></td>
+	   <td></td>
+	   <td>1</td>
+	   <td>2</td>
+
+	  <tr></tr>
+
+	  <tr></tr>
+	   <td>3</td>
+	   <td>4</td>
+	   <td>5</td>
+	   <td>6</td>
+	   <td>7</td>
+	   <td>8</td>
+	   <td>9</td>
+
+
+	  <tr></tr>
+
+	  <tr></tr>
+	   <td>10</td>
+	   <td>11</td>
+	   <td>12</td>
+	   <td>13</td>
+	   <td>14</td>
+	   <td>15</td>
+	   <td>16</td>
+
+
+	  <tr></tr>
+
+	  <tr></tr>
+	   <td>17</td>
+	   <td>18</td>
+	   <td>19</td>
+	   <td>20</td>
+	   <td>21</td>
+	   <td>22</td>
+	   <td>23</td>
+
+	  <tr></tr>
+
+ 	  <tr></tr>
+	   <td>24</td>
+	   <td>25</td>
+	   <td>26</td>
+	   <td>27</td>
+	   <td>28</td>
+	   <td>29</td>
+	   <td>30</td>
+	  <tr></tr>
+	</table>
+
+
+	<h2 align = "center">Next up Forms!</h2>
+	<h2><hr /></h2>
+	<br />
+	<br />
+	<br />
+	<br />
+	
+	<!-- First up are input commands and radio buttons and check boxes. PHP or JS will be need for added function fyi -->
+	<!-- Using Checkbox allows the selection of more than one option-->
+
+	<input type="radio" name="gender" value="male"/>Male<br/>
+	<input type="radio" name="gender" value="female"/>Female<br/>
+
+	<!-- More than one option-->
+	<input type="checkbox" name="gender" value="male"/>male<br/>
+	<input type="checkbox" name="gender" value="female"/>female<br/>
+
+	<!-- Submit button with form -->
+	<!-- Watch video on forms later-->
+
+	<form>
+   
+ 
+	<input type="text" name="username" /><br />
+ 
+	<input type="password" name="password" />
+
+	
+	</form>
+	
+	<input type="submit" action="www.google.com" method="get" value="Submit" />	
+
+	<!-- Contact Box --!>
+
+	<h1><span>Contact Me</span></h1>
+	<form>
+	 <input name="name"type="text"/><br/>
+	 <input name="email"type="text"/><br/>
+	 <!-- Message box -->
+	 <textarea name="Message"></textarea><br/>
+	 <input type="submit" value="SEND" class="submit"/>
+	</form>
+
+	<H1 align="center"> HTML COLORS</H1>
+	 <ul align="center">
+	  <li align="center">Html colors are represented in Hex there are over 16 million combinations.</li>
+	 </ul>
+
+	<h2 align="center">Color key Table</h2>
+	<Table border="1">
+	 <th></th>
+	  <tr></tr>
+	    <td bgcolor=#00FF00>Green = #FF0000</td>
+
+	  <tr></tr>
+	    <td bgcolor=#FF0000>Red = #00FF00</td>
+
+	  <tr></tr>
+	    <td bgcolor=#0000FF>Blue = #0000FF</td>
+
+	  <tr></tr>
+	    <td bgcolor=#000000><font color=#FFFFFF>Black = #000000</font></td>
+	
+	  <tr></tr>
+	    <td bgcolor=#777777><Grey = #777777</td>
+
+	  <tr></tr>
+	    <td bgcolor=#c1250F>Orange = #c1250F</td>
+	  </table>
+
+
+	<!-- I ripped this part because it's obsolete in HTML5 -->
+
+	<div class="section">
+        
+    	<h1><span>My Media</span></h1>
+        
+    	<iframe height="150" width="300" src="https://www.youtube.com/embed/Q6_5InVJZ88" allowfullscreen frameborder="0">
+	</iframe>
+       
+	 </div>
+
+	</body>
+<html>
